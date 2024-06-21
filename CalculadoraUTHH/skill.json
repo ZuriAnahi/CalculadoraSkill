@@ -1,0 +1,80 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "es-ES": {
+          "summary": "practica de clase calculadora operaciones basicas",
+          "examplePhrases": [
+            "Alexa, Abre calculadora uthh",
+            "Hola Zuri Granadilla. Bienvenido a calculadora uthh",
+            "Hola, que operacion deseas realizar"
+          ],
+          "keywords": [
+            "saludo",
+            "Hola",
+            "Zuri"
+          ],
+          "name": "calculadoraUTHH",
+          "description": "practica en clase skill de una calculadora operaciones basicas y utilizando math",
+          "smallIconUri": "file://assets/images/es-ES_smallIconUri.png",
+          "updatesDescription": "nada nuevo",
+          "largeIconUri": "file://assets/images/es-ES_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"hola Zuri Granadilla, adiós \"}",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "MX"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:058264129671:function:2a9301b7-61cc-48ee-9e84-412a5796ed9d:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:058264129671:function:2a9301b7-61cc-48ee-9e84-412a5796ed9d:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:058264129671:function:2a9301b7-61cc-48ee-9e84-412a5796ed9d:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:058264129671:function:2a9301b7-61cc-48ee-9e84-412a5796ed9d:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "es-ES": {
+          "termsOfUseUrl": "https://www.uthh.edu.mx",
+          "privacyPolicyUrl": "https://www.uthh.edu.mx"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
